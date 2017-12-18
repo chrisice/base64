@@ -16,7 +16,7 @@ GetOptions(
 
 if ($encode) {
 $string = $encode;
-$out = encode_base64($string);
+$out = encode_base64($string, '');
 print $out;
 print "\n"
 }
